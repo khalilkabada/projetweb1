@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panier</title>
+  <link rel="stylesheet" href="panier.css">
+</head>
+<body>
+  <header>
+    <h1><a href="index.html"><img class="logo2" src="https://img.freepik.com/photos-premium/ballon-football-or-fond-noir_147933-7788.jpg"/></a>FootStyle</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="page.html">Produits</a></li>
+            <li><a href="panier.html">Panier</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <input type="search" id="search"  placeholder="Rechercher..." value="" onchange="ouvrirPage()">
+          <script>
+            function ouvrirPage(){
+                var a = document.getElementById("search").value;
+
+                if(a === "maillot"){
+                    window.open("maillot.html")
+                }
+                if(a === "bayern"){
+                  window.open("bayern.html")
+                   }
+                   if(a === "paris"){
+                    window.open("paris.html")
+                   }
+                if(a === "barcelone"){
+                  window.open("barcelone.html")
+                   }
+                   if(a === "real madrid"){
+                    window.open("madrid.html")
+                   }
+                if(a === "france"){
+                  window.open("france.html")
+                   }
+                   if(a === "napoli"){
+                    window.open("napoli.html")
+                   }
+                if(a === "allemagne"){
+                  window.open("allemagne.html")
+                   }
+                   if(a === "liverpool"){
+                    window.open("liverpool.html")
+                   }
+                if(a === "inter milan"){
+                  window.open("inter.html")
+                   }
+                   if(a === "manchester city"){
+                    window.open("city.html")
+                   }
+                if(a === "argentine"){
+                  window.open("argentine.html")
+                   }
+                   if(a === "angleterre"){
+                    window.open("angleterre.html")
+                   }
+            }
+        </script>
+          <style>
+              #search{
+                  border-radius:30px;
+                  border: 5px solid gray;
+              }
+          </style>
+          </div>
+        </nav>
+  </header>
+  
+  <section class="cart">
+    <h1>Panier</h1>
+    <div id="cart-items">
+</div>
+ </div>
+    <div id="cart-total">
+      <p>Total : <span id="total-amount">$0.00</span></p>
+      <a href="paye.html" class="btn">procéder au payement</a>
+    </div>
+  </section>
+  <footer>
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Download Our App</h3>
+              <p>
+                Download App for Android <br />
+                and ios mobile phone
+              </p>
+               <div class="app-logo">
+                <img src="images/play-store.png" alt="" />
+                <img src="images/app-store.png" alt="" />
+              </div> 
+ </div>
+            <div class="footer-col-2">
+              <img src="images/logo-white.png" alt="" />
+              <p>
+                ce site web est le rêve de tout fan de football , ici on trouve des maillots foot de differents clubs
+              </p>
+            </div>
+            <div class="footer-col-3">
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+              </ul>
+            </div>
+  
+            <div class="footer-col-4">
+              <h3>Follow us</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p class="copyright">Copyright 2020 - introidx</p>
+        </div>
+      </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>  

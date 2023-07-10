@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding: 15px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo2 {
+  width: -50px;
+  height: 75px;
+  transform: translateY(25px);
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background: black;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 5px;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background-color: #563434; /* Green */
+  color: #fff;
+}
+
+.header {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.header .row {
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.cart h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#cart-items {
+  margin-bottom: 20px;
+}
+
+#cart-items .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#cart-items .item:last-child {
+  border-bottom: none;
+}
+
+#cart-total {
+  text-align: right;
+}
+
+#cart-total p {
+  font-weight: bold;
+}
+
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p {
+  color: #8a8a8a;
+}
+.footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col-1 {
+  flex-basis: 30px;
+}
+
+.footer-col-2 {
+  flex: 1;
+  text-align: center;
+}
+.footer-col-2 img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer-col-3,
+.footer-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright {
+  text-align: center;
+}
+.menu-icon {
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
